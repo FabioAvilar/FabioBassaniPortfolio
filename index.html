@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- STYLE CSS -->
-        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/style.css" />
 
         <!-- BOX ICONS -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link
+            href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+            rel="stylesheet"
+        />
 
         <!-- PAGE TITLE -->
         <title>Fabio Bassani</title>
@@ -25,11 +28,21 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Work</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -44,24 +57,67 @@
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">
-                        Hi,<br> I'am <span class="home__title-color">Fabio Bassani</span> Full Stack Web Developer
+                        Hi,<br />
+                        I'am
+                        <span class="home__title-color">Fabio Bassani</span>
+                        Full Stack Web Developer
                     </h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.linkedin.com/in/fabio-bassani/?locale=en_US" target="_blank" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
-                    <a href="https://github.com/FabioAvilar" target="_blank" class="home__social-icon"><i class="bx bxl-github"></i></a>
-                    <a href="https://www.codewars.com/users/FabioAvilar" target="_blank" class="home__social-icon"><i class='bx bx-code-alt'></i></a>
+                    <a
+                        href="https://www.linkedin.com/in/fabio-bassani/?locale=en_US"
+                        target="_blank"
+                        class="home__social-icon"
+                        ><i class="bx bxl-linkedin"></i
+                    ></a>
+                    <a
+                        href="https://github.com/FabioAvilar"
+                        target="_blank"
+                        class="home__social-icon"
+                        ><i class="bx bxl-github"></i
+                    ></a>
+                    <a
+                        href="https://www.codewars.com/users/FabioAvilar"
+                        target="_blank"
+                        class="home__social-icon"
+                        ><i class="bx bx-code-alt"></i
+                    ></a>
                 </div>
 
                 <div class="home__img">
-                    <img src="IMG/homeAnimate.gif" alt="">
+                    <img src="IMG/homeAnimate.gif" alt="" />
                 </div>
             </section>
             <!-- ABOUT -->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
 
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="IMG/Fabio.jpeg" alt="Fabio Bassani" />
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Fabio</h2>
+                        <p class="about__text">
+                            Born in the year 1992. In a big city called São
+                            Paulo in Brazil. A dreamy Brazilian appears. Always
+                            looking for great challenges, I decided to graduate
+                            from University <a href="https://www.uninove.br/cursos/graduacao/presencial/engenharia-mecanica" target="_blank">Nove de Julho</a>  as a Mechanical
+                            Engineer in 2016. However, with great ambition and
+                            desire to know the world, I set out on a new
+                            adventure in Europe in 2019, where I fall in love
+                            with the profession of Front End developer. Through
+                            the <a href="https://www.spiced-academy.com/en/program/full-stack-web-development">Spicedy Academy</a> School in Berlin, Germany, I
+                            graduated from an online Bootcamp to become a Full
+                            Stack Web Developer.
+                        </p>
+                    </div>
+                </div>
+            </section>
             <!-- SKILLS -->
 
             <!-- WORK -->
@@ -73,6 +129,5 @@
 
         <!-- MAIN JS -->
         <script src="JS/script.js"></script>
-
     </body>
 </html>

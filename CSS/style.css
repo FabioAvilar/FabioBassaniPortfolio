@@ -1,5 +1,5 @@
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200;1,400&display=swap");
 
 /* BASE */
 * {
@@ -13,12 +13,14 @@ html {
 
 body {
     margin: 3rem 0 0 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: .938rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.938rem;
     color: black;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
     margin: 0;
 }
 
@@ -36,6 +38,33 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+/* SECTIONS CLASS CSS */
+.section-title {
+    position: relative;
+    font-size: 1.25rem;
+    color: #ffc300;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: #344e41;
+}
+
+.section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 /* LAYOUT */
@@ -74,7 +103,7 @@ img {
         height: 100%;
         padding: 2rem;
         background-color: #ffc300;
-        transition: .5s;
+        transition: 0.5s;
     }
 }
 
@@ -93,12 +122,12 @@ img {
 
 .nav__link:hover::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 100%;
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: #344E41;
+    background-color: #344e41;
 }
 
 .nav__logo {
@@ -106,7 +135,7 @@ img {
 }
 
 .nav__toggle {
-    color: #344E41;
+    color: #344e41;
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -114,12 +143,12 @@ img {
 /* ACTIVE MENU */
 .active::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 100%;
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: #344E41;
+    background-color: #344e41;
 }
 
 /* SHOW MENU */
@@ -173,10 +202,31 @@ img {
     color: #fff;
     padding: 0.75rem 2.5rem;
     font-weight: 600;
-    border-radius: .5rem;
-    transition: .3s;
+    border-radius: 0.5rem;
+    transition: 0.3s;
 }
 
 .button:hover {
     box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.432);
 }
+
+/* ABOUT */
+.about__container {
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.about__subtitle {
+    margin-bottom: 1rem;
+}
+
+.about__img {
+    justify-self: center;
+}
+
+.about__img img {
+    width: 200px;
+    border-radius: 0.5rem;
+}
+
+/* SKILLS */
