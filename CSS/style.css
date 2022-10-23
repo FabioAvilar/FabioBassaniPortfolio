@@ -297,3 +297,25 @@ img {
 .skills__img {
     border-radius: .5rem;
 }
+
+/* CONTACT */
+.contact__input {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid #fca311;
+    outline: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.contact__button {
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: auto;
+}
